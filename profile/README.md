@@ -55,7 +55,7 @@ npm install @widgemo/widgemo-core
 
 ---
 
-##The Apps
+## The Apps
 
 Every Widgemo app starts as a personal itch and gets built out to framework-level flexibility. A couple are already out in the wild:
 
