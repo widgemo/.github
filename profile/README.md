@@ -21,48 +21,68 @@
 
 ## What is Widgemo?
 
-Widgemo is a software studio with a conviction: **the best code is code you don't have to rewrite.**
+Widgemo is a small software studio built around one stubborn idea: **the best code is the code you never have to write twice.**
 
-We build from a single principle — *Need to Framework* (N2F). Every product starts with a specific, intractable problem. We break it into atomic parts, ask who else faces the same pain, and build a configurable solution that solves the original need — and countless future variants — without rewriting.
+Every project starts the same way, with one real, annoying problem. Widgemo pulls it apart, figures out who else is stuck with the same headache, and builds something flexible enough to handle the original need and all the variations nobody's thought of yet. That approach has a name: *Need to Framework Engineering*, or N2F for short.
 
-> *Custom code dies with the contract. Frameworks outlive companies.*
+> *Custom code tends to die with the contract. Good frameworks stick around long after.*
 
 ---
 
-## Our Open Source
+## Why This Matters More Now
+
+AI can write code faster than anyone ever could. Which means writing code is no longer the hard part. The hard part is knowing what to build and shaping it so it doesn't need rebuilding every time the requirements shift.
+
+That's the whole point of N2F. And there's a nice side effect: when a tool is driven by configuration instead of custom code, an AI assistant can work with it reliably. It just sets the props, without having to invent a new component from scratch.
+
+AI also brings brand-new everyday problems. Pasting real logs into an AI chat is now a routine move, and a risky one. That's exactly the kind of need Widgemo likes to turn into a tool.
+
+---
+
+## The Open Source Bit
 
 ### [`@widgemo/widgemo-core`](https://github.com/widgemo/widgemo-core)
 
-A single, hyper-configurable React component that renders your data exactly how you need it — table, board, grid, chart, timeline, or tile — without writing new component code. Change a few props and the same Widgemo becomes a KPI card, a Kanban board, or a paginated data table.
+One React component, a lot of shapes. Feed it your data and it'll show up as a table, board, grid, chart, timeline, or tile, with no new component code required. Tweak a few props and the same Widgemo turns into a KPI card, a Kanban board, or a paginated data table.
 
 ```bash
 npm install @widgemo/widgemo-core
 ```
 
-**What it replaces:** the bespoke widget you've written six times in six different projects.
-
-**What it gives you:** one primitive, infinite configurations, zero duplication.
+**What it replaces:** that custom widget you've rebuilt in six different projects. What you get instead: one building block that bends to fit, with nothing duplicated.
 
 → [Live demo & sandbox](https://widgemo.com) · [Documentation](https://github.com/widgemo/widgemo-core) · [Gallery of configurations](https://widgemo.com)
 
 ---
 
-## Our Philosophy
+##The Apps
 
-We build with **Conviction** — the line we refuse to cross when deadlines burn and the easy path shines brightest. A few of the laws we never break:
+Every Widgemo app starts as a personal itch and gets built out to framework-level flexibility. A couple are already out in the wild:
 
-- *Better to ship late than ship regret.*
-- *Beautiful code is compassionate code.*
-- *Build for the user who will never shake your hand.*
-- *Shipping is a tactic. Surviving decades is the strategy.*
+[PAW](https://paw.widgemo.com) (Payload Analysis Wingman) Explore, format, and diff JSON and XML payloads without squinting at a wall of brackets. PAW can also scrub sensitive data like IDs, customer names, and phone numbers out of payloads and logs, so you can share them with a teammate or an AI chat without giving away anything you shouldn't.
 
-We believe in paying the **Beauty Tax** upfront — the deliberate investment in visual and experiential polish — because crude interfaces drain motivation and beautiful ones compound it. Ugly is never neutral.
+[Weave](https://weave.widgemo.com) Diagram how events flow between systems, as a timeline or a flow. Weave can even pull live data from sources like ServiceNow and map it into a diagram, so you can see how an integration actually behaves, not just how someone drew it on a whiteboard two years ago.
+
+More on the way: financial tools, creative databases, household organizers.
 
 ---
 
-## Contributing
+## How Widgemo Thinks
 
-`widgemo-core` is open source and built to be extended. If you've hit a use case it doesn't cover, or a configuration pattern worth adding — we want to hear from you.
+Deadlines have a way of making shortcuts look really attractive. Widgemo has a few rules for exactly those moments:
+
+- *Shipping late beats shipping something you'll regret.*
+- *Clean, beautiful code is a kindness to whoever touches it next.*
+- *Build for the user you'll never meet.*
+- *Shipping fast is a tactic. Outlasting the next rewrite is the goal.*
+
+And then there's the **Beauty Tax**: the time and care spent on polish before anything ships. A clunky interface quietly drains your motivation every time you open it, and a beautiful one keeps pulling you back in. Ugly is never neutral, so Widgemo pays the tax upfront.
+
+---
+
+## Want to Contribute?
+
+`widgemo-core` is open source and made to be stretched. If you've found a use case it can't handle yet, or a configuration pattern worth sharing, jump in:
 
 - 🐛 [Open an issue](https://github.com/widgemo/widgemo-core/issues)
 - 🔀 [Read the contributing guide](https://github.com/widgemo/widgemo-core/blob/main/CONTRIBUTING.md)
@@ -70,17 +90,9 @@ We believe in paying the **Beauty Tax** upfront — the deliberate investment in
 
 ---
 
-## Our Apps
-
-We use widgemo-core to build real products — financial tools, creative databases, household management systems. Each one starts as a specific personal need and gets built to framework-grade generality.
-
-*More coming soon.*
-
----
-
 <div align="center">
 
-*Code is never neutral. Code either defends a belief — or betrays one.*
+*Code is never neutral. It either backs up what you believe or quietly works against it.*
 
 **[widgemo.com](https://widgemo.com)**
 
